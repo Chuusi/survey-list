@@ -1,0 +1,39 @@
+.home{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.home_container{
+    width: 70%;
+    max-width: 1080px;
+    min-height: 50vh;
+    background-color:var(--form-color);
+    flex-direction: column;
+    justify-content: start;
+}
+
+.home_title{
+    font-size: 4em;
+    padding: 50px;
+    min-height: 20vh;
+}
+
+.button_container{
+    width: 90%;
+}
+
+.home_button{
+    width: 40%;
+    text-align: center;
+    height: 300px;
+    font-size: 2em;
+    border: 2px dashed var(--bg-color);
+    background-color: var(--second-color);
+    margin: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

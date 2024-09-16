@@ -1,0 +1,42 @@
+.stats_survey{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.results_container{
+    width: 70%;
+    max-width: 1080px;
+    min-height: 50vh;
+    background-color: var(--form-color);
+    padding: 50px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.table{
+    width: 50% !important;
+}
+
+.stats_survey_title{
+    font-size: 2em;
+}
+
+.each_answer_title{
+    margin: 20px 0px !important;
+}
+
+.each_answer_option{
+    margin: 0px 20px !important;
+}
+
+.custom_background {
+    background-color: var(--custom-bg-color, rgba(0, 0, 0, 0.1));
+}
+
+.stats_button{
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: -10px;
+    font-size: 1.1em;
+}

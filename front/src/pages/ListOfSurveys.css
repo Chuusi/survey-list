@@ -1,0 +1,61 @@
+.list_surveys{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.survey_container{
+    width: 70%;
+    max-width: 1080px;
+    min-height: 50vh;
+    background-color: var(--form-color);
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.list_title_text{
+    font-size: 3em;
+    padding: 10px;
+}
+
+.all_surveys{
+    height: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.each_survey{
+    width: 25%;
+    font-size: .8em;
+    min-width: 150px;
+    height: 180px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.buttons_container button{
+    width: 70%;
+    text-align: center;
+}
+
+.list_button{
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: -10px;
+    font-size: 1.1em;
+}
